@@ -6,8 +6,8 @@ import {
     RetryConfig,
     ReturnFieldsEnum,
     StatusCodeByName
-} from "./types";
-import {RequestOptions} from "./types";
+} from "./types.js";
+import {RequestOptions} from "./types.js";
 
 /**
  * Decides how to handle 'network-error' and 'parsing-error' cases.

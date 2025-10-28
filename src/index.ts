@@ -7,9 +7,9 @@ import {
     RetryCall,
     ParseAs,
     OnStatus
-} from "./core/types";
-import {CallError} from "./core/errors";
-import {buildUrl} from "./core/url";
+} from "./core/types.js";
+import {CallError} from "./core/errors.js";
+import {buildUrl} from "./core/url.js";
 import {
     allowAndDelayFromDecision,
     codeToName, computeDelay,
@@ -17,7 +17,7 @@ import {
     filterFields, parseWithReader,
     pickSpecial,
     pickStatusHandler,
-} from "./core/helper";
+} from "./core/helper.js";
 
 /**
  * Default values

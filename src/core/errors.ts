@@ -1,4 +1,4 @@
-import type { HttpMethod } from "./types";
+import type { HttpMethod } from "./types.js";
 
 export class CallError extends Error {
     status?: number;
