@@ -8,16 +8,16 @@ Ein dünner, typsicherer HTTP-Client auf Basis von fetch mit:
 - suppressError und returnFields für schlanke Ergebnisse
 - TypeScript-first
 
-Installation
+## Installation
 ```bash
-npm install @dein-scope/call
+npm install @doschge/call
 # oder
-yarn add @dein-scope/call
+yarn add @doschge/call
 ```
 
 Schnellstart
 ```ts
-import { createCall } from '@dein-scope/call'
+import { createCall } from '@doschge/call'
 
 const call = createCall({
   baseUrl: 'https://api.example.com',
@@ -195,6 +195,9 @@ const call = createCall({
   token: async () => localStorage.getItem('token') ?? undefined,
 })
 ```
+
+## Support
+Node >= 18 (global fetch) oder fetch via config.fetch.
 
 ## Lizenz
 - MIT
