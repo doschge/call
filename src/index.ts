@@ -528,5 +528,5 @@ export function createCall(config: CallConfig = {}): Call {
     }
 }
 
-export type {Call, CallConfig, RequestOptions, CallResult} from './core/types';
+export type {Call, CallConfig, RequestOptions, CallResult} from './core/types.js';
 export {CallError};
