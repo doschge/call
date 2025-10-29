@@ -1,13 +1,13 @@
-import {
+import type {
     CallConfig,
     HttpStatusWildcard,
     ParseAs,
     ProgressAPI,
     RetryConfig,
     ReturnFieldsEnum,
-    StatusCodeByName
+    RequestOptions
 } from "./types.js";
-import {RequestOptions} from "./types.js";
+import { StatusCodeByName } from "./types.js";
 
 /**
  * Decides how to handle 'network-error' and 'parsing-error' cases.
